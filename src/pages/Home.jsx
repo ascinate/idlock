@@ -1,8 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
-
-
 import ione from "/home-shape-1-2.png";
 import ithree from "/home-shape-1-1.png";
 import ifour from "/i4.png";
