@@ -17,7 +17,6 @@ import { NavLink } from 'react-router-dom';
 function Navbar() {
    
 
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
      const navLinkClass = ({ isActive }) =>
     `block py-2 px-3 rounded-sm md:p-0 font-medium ${
@@ -46,7 +45,7 @@ function Navbar() {
                         <button  onClick={toggleMenu}  className="text-gray-800 dark:text-white focus:outline-none text-2xl md:hidden">
                         </button>
 
-                        <div className={`${isMenuOpen ? 'block' : 'hidden'} md:block md:w-auto`} id="navbar-default">
+                        <div className="md:block md:w-auto" id="navbar-default">
                             <ul className="font-medium signup-nows flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                                 {navItems.map((item, index) => (
                                     <li key={index}>

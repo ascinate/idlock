@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-
-/* global css */
 * {
     margin: 0;
     padding: 0;
@@ -76,7 +73,6 @@ header {
 
 }
 
-/* navbar start */
 nav {
    
 }
@@ -383,7 +379,12 @@ nav li a{
     font-size: 16px;
     padding: 10px 30px;
     border-radius: 50px;
+    transition: all 0.5s;
 
+}
+.signup-nows li:last-child a:hover{
+    background-color: var(--secondary-theme-color) !important;
+    color: var(--text-white) !important;
 }
 .section-hero{
     background: #eeffee;
