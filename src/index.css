@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: "Inter", sans-serif;
+   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 a {
@@ -25,15 +25,27 @@ li {
 
 .sub-text {
     color: #5F6368;
+        font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width:70%;
+    margin-top: 15px;
 }
 
 :root {
     --text-white: #ffffff;
-    --theme-color: #600EE4;
-    --secondary-theme-color: #6f4ded;
+    --theme-color: #89a831;
+    --secondary-theme-color: #1c9c84;
 }
 
-
+.md\:text-blue-700 {
+    --tw-text-opacity: 1;
+    color:#1c9c84 !important;
+}
+.md\:hover\:text-blue-700:hover {
+        --tw-text-opacity: 1;
+        color:#1c9c84 !important;
+}
 @media (min-width: 1000px) {
     .wrapper {
         width: 1200px;
@@ -43,11 +55,20 @@ li {
 
 .theme-color-btn {
     background-color: var(--secondary-theme-color);
+    box-shadow: inset -2px -2px 2px rgba(7, 13, 29, 0.3);
     color: var(--text-white) !important;
-    padding: 14px 35px;
-    font-weight: 600;
-    border-radius: 15px;
 
+
+}
+.brn-btn{
+    height: 60px;
+    line-height: 61px;
+    padding: 0 35px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 50px;
+    font-family: "Urbanist", sans-serif;
 }
 
 header {
@@ -57,7 +78,7 @@ header {
 
 /* navbar start */
 nav {
-    padding-block: 20px;
+   
 }
 
 .navLink li {
@@ -90,7 +111,10 @@ nav {
     border-radius: 15px;
 }
 
-
+nav{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
 .m-theebar {
     display: none;
 }
@@ -148,17 +172,39 @@ nav {
 
 .hero-main-text {
     font-size: 55px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.03em;
+    line-height: 76px;
+}
+.hero-main-text span{
+    font-size: 55px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700; 
+    position: relative;
+    text-transform: capitalize;
+    color: #1c9c84;
+}
 
+.hero-main-text strong{
+    font-size: 55px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700; 
+    position: relative;
+    text-transform: capitalize;
+    color: #010101;
+}
+.hero-main-text span svg{
+    position: absolute;
+    right: -60px;
+    bottom: -5px;
 }
 
 
 .white-color-btn {
     margin-left: 20px;
-    border: 2px solid var(--secondary-theme-color);
-    color: var(--secondary-theme-color);
-    padding: 14px 35px;
-    font-weight: 600;
-    border-radius: 15px;
+    color: #010101;
+    background-color: var(--text-white);
 }
 
 
@@ -187,9 +233,9 @@ nav {
 
 .ithree {
     position: absolute;
-    top: -30%;
+    top: -79%;
     left: -10%;
-    width: 100px;
+    width: auto;
     animation: ithree 2s alternate infinite;
     -webkit-animation: ithree 2s alternate infinite;
 }
@@ -222,7 +268,7 @@ nav {
 
 .ifour {
     position: absolute;
-    top: -30%;
+    top: -50%;
     right: -10%;
     width: 60px;
     animation: gelatine 0.5s infinite;
@@ -313,7 +359,46 @@ nav {
     }
 }
 
+nav li a{
+   font-family: "Plus Jakarta Sans", sans-serif;
+}
+.signup-nows{
+    padding-left: 20%;
+}
+#navbar-default{
+    width: 85%;
+}
+.loggos{
+    width: 15%;
+}
+.signup-nows li:last-child{
+    margin-left: auto !important;
+}
+.signup-nows li a{
+ padding: 12px 11px;
+}
+.signup-nows li:last-child a{
+    background: #f0da18;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 50px;
 
+}
+.section-hero{
+    background: #eeffee;
+}
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 1168px) {
+    .hero-main-text{
+        font-size: 35px;
+    }
+}
 /* hero section end */
 
 /*:::::::::::::Home page end::::::::::::*/
