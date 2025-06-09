@@ -36,10 +36,7 @@ li {
     --secondary-theme-color: #1c9c84;
 }
 
-.md\:text-blue-700 {
-    --tw-text-opacity: 1;
-    color:#1c9c84 !important;
-}
+
 .md\:hover\:text-blue-700:hover {
         --tw-text-opacity: 1;
         color:#1c9c84 !important;
@@ -372,12 +369,20 @@ nav{
 
 nav li a{
    font-family: "Plus Jakarta Sans", sans-serif;
+   color: #010101 !important; 
+}
+nav li a:hover{
+    color: #1c9c84 !important;
 }
 .signup-nows{
     padding-left: 20%;
 }
 #navbar-default{
     width: 85%;
+    width: 85%;
+    justify-content: center;
+    display: flex
+;
 }
 .loggos{
     width: 15%;
@@ -395,6 +400,9 @@ nav li a{
     padding: 10px 30px;
     border-radius: 50px;
     transition: all 0.5s;
+        position: relative;
+    right: -140px;
+    display: table;
 
 }
 .signup-nows li:last-child a:hover{
