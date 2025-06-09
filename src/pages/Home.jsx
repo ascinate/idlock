@@ -3,12 +3,10 @@ import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 
 
-//Image
-import ione from "/home-shape-1-2.png"
-import itwo from "/i2.png"
-import ithree from "/home-shape-1-1.png"
-import ifour from "/i4.png"
-import isix from "/i6.png"
+import ione from "/home-shape-1-2.png";
+import ithree from "/home-shape-1-1.png";
+import ifour from "/i4.png";
+import isix from "/i6.png";
 
 
 function Home() {
@@ -38,7 +36,6 @@ function Home() {
                                 <img src={ifour} alt="" className='ifour'/>
                                 <img src={ione} alt=""  className='ione-face'/>
                                 <img src={isix} alt=""  className='isix'/>
-                                {/* <img src={ione} alt="" /> */}
                             </div>
                         </div>
                     </div>
