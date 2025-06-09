@@ -223,6 +223,9 @@ nav{
 .ione-face {
     animation: faceleftright 2s alternate infinite;
     -webkit-animation: faceleftright 2s alternate infinite;
+     right: 240px;
+    position: relative;
+    bottom: -90px;
 }
 
 @keyframes faceleftright {
