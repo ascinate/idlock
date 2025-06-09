@@ -10,6 +10,7 @@
 
 body {
    font-family: "Plus Jakarta Sans", sans-serif;
+   background: #eeffee;
 }
 
 a {
@@ -70,6 +71,7 @@ li {
 
 header {
     z-index: 99;
+     background: #fff;
 
 }
 
