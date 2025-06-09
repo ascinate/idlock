@@ -427,3 +427,8 @@ nav li a:hover{
         font-size: 35px;
     }
 }
+@media(max-width:910px){
+    #navbar-default{
+        display: none;
+    }
+}
