@@ -189,6 +189,7 @@ nav{
     position: relative;
     text-transform: capitalize;
     color: #010101;
+    display: block;
 }
 .hero-main-text span svg{
     position: absolute;
@@ -389,6 +390,7 @@ nav li a{
 .section-hero{
     background: #eeffee;
 }
+
 @media (min-width: 1280px) {
     .container {
         max-width: 1200px;
