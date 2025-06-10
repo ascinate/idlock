@@ -10,7 +10,7 @@
 
 body {
    font-family: "Plus Jakarta Sans", sans-serif;
-   background: #eeffee;
+   background: #efefef;
 }
 
 a {
@@ -32,14 +32,14 @@ li {
 
 :root {
     --text-white: #ffffff;
-    --theme-color: #89a831;
-    --secondary-theme-color: #1c9c84;
+    --theme-color: #4479bd;
+    --secondary-theme-color: #4479bd;
 }
 
 
 .md\:hover\:text-blue-700:hover {
         --tw-text-opacity: 1;
-        color:#1c9c84 !important;
+        color:#4479bd !important;
 }
 @media (min-width: 1000px) {
     .wrapper {
@@ -178,6 +178,7 @@ nav{
     font-weight: 300;
     letter-spacing: -0.03em;
     line-height: 76px;
+    width: 90%;
 }
 .hero-main-text span{
     font-size: 55px;
@@ -185,7 +186,7 @@ nav{
     font-weight: 700; 
     position: relative;
     text-transform: capitalize;
-    color: #1c9c84;
+    color: #4479bd;
 }
 
 .hero-main-text strong{
@@ -223,9 +224,10 @@ nav{
 .ione-face {
     animation: faceleftright 2s alternate infinite;
     -webkit-animation: faceleftright 2s alternate infinite;
-     right: 240px;
-    position: relative;
-    bottom: -90px;
+    right: 250px;
+    position: absolute;
+    bottom: 0px;
+    width: 150px;
 }
 
 @keyframes faceleftright {
@@ -244,9 +246,9 @@ nav{
 
 .ithree {
     position: absolute;
-    top: -79%;
-    left: -10%;
-    width: auto;
+    top: 60px;
+    right: 110px;
+    width: 280px;
     animation: ithree 2s alternate infinite;
     -webkit-animation: ithree 2s alternate infinite;
 }
@@ -279,8 +281,8 @@ nav{
 
 .ifour {
     position: absolute;
-    top: -50%;
-    right: -10%;
+    top: 10px;
+    right: 0;
     width: 60px;
     animation: gelatine 0.5s infinite;
     -webkit-animation: gelatine 0.5s infinite;
@@ -328,7 +330,7 @@ nav{
 
 .itwo {
     position: absolute;
-    bottom: -50%;
+    top: -50%;
     width: 100px;
     aspect-ratio: 1;
     animation: roll-in 2s ease infinite;
@@ -353,7 +355,7 @@ nav{
 
 .isix {
     position: absolute;
-    bottom: -50%;
+    top: 200px;
     right: 0%;
     width: 80px;
     aspect-ratio: 1;
@@ -375,7 +377,7 @@ nav li a{
    color: #010101 !important; 
 }
 nav li a:hover{
-    color: #1c9c84 !important;
+    color: #4479bd !important;
 }
 .signup-nows{
     padding-left: 20%;
@@ -397,15 +399,16 @@ nav li a:hover{
  padding: 12px 11px;
 }
 .signup-nows li:last-child a{
-    background: #f0da18;
+    background: #050708;
     font-weight: 500;
     font-size: 16px;
     padding: 10px 30px;
     border-radius: 50px;
     transition: all 0.5s;
-        position: relative;
+    position: relative;
     right: -140px;
     display: table;
+    color: var(--text-white) !important;
 
 }
 .signup-nows li:last-child a:hover{
@@ -413,9 +416,40 @@ nav li a:hover{
     color: var(--text-white) !important;
 }
 .section-hero{
-    background: #eeffee;
+    background: #efefef;
 }
+.banner-tms01{
+    width: 68%;
+    padding-top: 70px;
+}
+.border-round-bar{
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 14px;
+}
+.off-cnvas01{
+    right: 0;
 
+}
+.offcanv{
+    background: #0a2b57;
+}
+.clones-btn{
+    background: #fff;
+    padding: 0px 12px 9px 12px;
+    line-height: normal;
+    /* padding-top: 7px; */
+    font-size: 30px;
+}
+.offcanv ul li a{
+  color: var(--text-white) !important;
+  text-transform: uppercase;
+  background: none !important;
+  border-bottom: solid 1px #09489d !important;
+  padding: 14px 20px;
+  font-size: 15px;
+}
 @media (min-width: 1280px) {
     .container {
         max-width: 1200px;
@@ -423,12 +457,91 @@ nav li a:hover{
 }
 
 @media (max-width: 1168px) {
+    .hero-main-text,
+    .hero-main-text span,
+    .hero-main-text strong{
+        font-size: 30px;
+        line-height: 42px;
+    }
     .hero-main-text{
-        font-size: 35px;
+        width: 100%;
+    }
+    .hero-main-text span svg{
+        width: 100%;
+        right: 0;
     }
 }
+
 @media(max-width:910px){
     #navbar-default{
         display: none;
     }
+    .banner-tms01{
+       width: 100%;
+       padding-top: 10px;
+       padding-left: 20px;
+    }
+    .ithree{
+        display: none;
+    }
+    .ione-face{
+        display: none;
+    }
+    .isix,
+    .ifour{
+        width: 50px;
+        position: relative;
+    }
+    .isix{
+        top: 0;
+        right: 0;
+        left: 50px;
+    }
+    .moible-full{
+        max-width: 100%;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .loggos {
+         width: 34%;
+    }
+}
+@media(max-width:668px){
+     .hero-main-text,
+    .hero-main-text span,
+    .hero-main-text strong{
+        font-size: 40px;
+        line-height: 53px;
+    }
+    .hero-main-text {
+        width: 90%;
+    }
+    .loggos {
+        width: 21%;
+    }
+}
+
+.custom-cursor {
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  border: solid 2px rgba(0, 123, 255, 0.6);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: transform 0.05s ease;
+  z-index: 9999;
+}
+.custom-cursor::before{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top:12px;
+    width: 8px;
+    height: 8px;
+    margin: auto;
+    border-radius: 50px;
+    overflow: hidden;
+    background: rgba(0, 123, 255, 0.6);
+    content: "";
 }
