@@ -449,7 +449,18 @@ nav li a:hover{
   padding: 14px 20px;
   font-size: 15px;
 }
-
+.signup01{
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    right: -140px;
+    display: table;
+    color: var(--text-white) !important;
+    background: rgb(5, 7, 8);
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
 
 @media (min-width: 1024px) {
     .container {
