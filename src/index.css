@@ -449,16 +449,26 @@ nav li a:hover{
   padding: 14px 20px;
   font-size: 15px;
 }
+
+
 @media (min-width: 1024px) {
     .container {
         max-width: 980px;
     }
+    .iconus-menu01{
+       display: none ;
+    }
+    
+   
 }
+
+
 
 @media (min-width: 1280px) {
     .container {
         max-width: 1200px;
     }
+    
 }
 
 
@@ -479,19 +489,33 @@ nav li a:hover{
 }
 @media (max-width: 1025px) {
     .ithree{
-      width: 170px;
-      right: 0;
+      width: 140px;
+      right: 110px;
     }
     .ione-face{
-      right: 0;
-      bottom: 60%;
+        right: 170px;
+        bottom: 36%;
+        width: 126px;
     }
     .signup-nows li:last-child a{
         right: -45px;
     }
     .signup-nows li a {
         padding: 12px 4px;
+        font-size: 13px;
     }
+    .signup-nows li:last-child a{
+        font-size: 14px;
+    }
+    .hero-main-text {
+        width: 50%;
+    }
+    .moible-full{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    
 }
 
 @media(max-width:910px){
@@ -526,6 +550,19 @@ nav li a:hover{
     }
     .loggos {
          width: 34%;
+    }
+    .banner-tms01{
+        text-align: center;
+    }
+    .hero-main-text{
+        width: 50%;
+        margin: auto;
+    }
+    .sub-text{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 25px;
     }
 }
 @media(max-width:668px){
