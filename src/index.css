@@ -455,6 +455,11 @@ nav li a:hover{
     }
 }
 
+@media (min-width: 1024px) {
+    .container {
+        max-width: 980px;
+    }
+}
 @media (max-width: 1168px) {
     .hero-main-text,
     .hero-main-text span,
@@ -468,6 +473,22 @@ nav li a:hover{
     .hero-main-text span svg{
         width: 100%;
         right: 0;
+    }
+}
+@media (max-width: 1025px) {
+    .ithree{
+      width: 170px;
+      right: 0;
+    }
+    .ione-face{
+      right: 0;
+      bottom: 60%;
+    }
+    .signup-nows li:last-child a{
+        right: -45px;
+    }
+    .signup-nows li a {
+        padding: 12px 4px;
     }
 }
 
