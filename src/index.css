@@ -449,17 +449,19 @@ nav li a:hover{
   padding: 14px 20px;
   font-size: 15px;
 }
+@media (min-width: 1024px) {
+    .container {
+        max-width: 980px;
+    }
+}
+
 @media (min-width: 1280px) {
     .container {
         max-width: 1200px;
     }
 }
 
-@media (min-width: 1024px) {
-    .container {
-        max-width: 980px;
-    }
-}
+
 @media (max-width: 1168px) {
     .hero-main-text,
     .hero-main-text span,
